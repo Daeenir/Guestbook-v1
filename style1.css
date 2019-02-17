@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: -webkit-linear-gradient(green, yellow);
+	background: -o-linear-gradient(green, yellow);
+	background: -moz-linear-gradient(green, yellow);
+	background: linear-gradient(green, yellow);
+	color: #555;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 12px;
+	width: 80%;
+	margin: 20px auto;
+	background: -webkit-linear-gradient(left, blue, green);
+	background: -o-linear-gradient(right, blue, green);
+	background: -moz-linear-gradient(right, blue, green);
+	background: linear-gradient(to left, blue, yellow);
+	padding: 8px;
+	border: solid blue 2px;
+}
+
+p {
+	margin: 12px;
+}
+
+a {
+	color: #ff6400;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #813300;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #404040;
+}
+
+h2 {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #404040;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	color: #404040;
+}
+
+ul,ol {
+	margin: 20px 0;
+}
+
+li {
+	margin-left: 25px;
+}
+
+/* Inställningar för tabeller */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ccc;
+	font-size: 12px;
+}
+
+tr:nth-child(even) {
+	background: #F6F6F8;
+}
+
+tr:nth-child(odd) {
+	background: #fff;
+}
+
+tr:hover {
+	background-color: #FFEAAD;
+}
+
+td {
+	padding: 1px;
+	padding-left: 4px;
+}
+
+th {
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	padding: 2px;
+	padding-left: 4px;
+	background-color: #000;
+}
+
+/* Inställningar för forms */
+input[type="text"],input[type="password"],input[type="file"] {
+	width: 200px;
+	color: #1C94C4;
+	font-weight: bold;
+	border: 1px solid #CCC;
+	padding: 0.3em;
+}
+
+textarea {
+	font-size: 12px;
+	font-family: helvetica, arial, sans-serif;
+	width: 200px;
+	height: 100px;
+	color: #1C94C4;
+	font-weight: bold;
+	border: 1px solid #CCC;
+	padding: 0.3em;
+}
+/*div#page {
+	background-color: #c9ffc3;
+	padding: 8px;
+	border: solid #678863 1px;
+}*/
+form {
+	padding: 8px;
+}
+legend {
+	font-size: 16px;
+	font-weight: bold;
+}
+fieldset {
+	background: -webkit-linear-gradient(left, green, yellow);
+	background: -o-linear-gradient(right, green, yellow);
+	background: -moz-linear-gradient(right, green, yellow);
+	background: linear-gradient(to left, green, yellow);
+	width: 524px;
+	margin: auto;
+}
+div.box {
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+div.error {
+	width: 400px;
+	padding: 5px;
+	margin: 5px auto 5px auto;
+	background-color: #ccc;
+	border: solid 1px black;
+}
+div.error > h3 {
+	color: red;
+}
+p.message {
+	width: 600px;
+	word-wrap: break-word;
+}
+h2#text {
+	font-size: 200%;
+}
+h2#rubrik {
+	font-size: 18px;
+}
