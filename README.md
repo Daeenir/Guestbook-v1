@@ -3,3 +3,5 @@ A guestbook where you leave a short note for the coming readers of the guestbook
 
 # What I Learned
 * File management in Php (Storing/Retrieving)
+
+*Note: Made in Swedish*
